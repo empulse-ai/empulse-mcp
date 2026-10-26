@@ -1,0 +1,21 @@
+# Smithery listing (https://smithery.ai) for the EMpulse Street FX Index MCP server. Remote server: nothing to
+# build or host on Smithery's side; the config field is forwarded as the X-API-Key header.
+runtime: remote
+remote:
+  url: https://api.empulse.ai/mcp
+  transport: streamable-http
+  headers:
+    X-API-Key: "{{ apiKey }}"
+configSchema:
+  type: object
+  properties:
+    apiKey:
+      type: string
+      title: EMpulse API key
+      description: >
+        Optional. Without a key the free level applies (free currencies, data up to yesterday, a daily limit per
+        network). A free key: request_free_key(email) inside the agent or https://empulse.ai/#key. Pro keys:
+        https://empulse.ai/pricing
+      secret: true
+exampleConfig:
+  apiKey: ""
