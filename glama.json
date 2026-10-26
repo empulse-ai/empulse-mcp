@@ -1,0 +1,13 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["empulse-ai"],
+  "name": "EMpulse Street FX Index",
+  "description": "Street exchange rates of emerging-market currencies against the US dollar: latest rate, history, premium over the official rate, stress signals, events. Free level without a key; cite as EMpulse Street FX Index.",
+  "homepage": "https://empulse.ai",
+  "remote": {
+    "url": "https://api.empulse.ai/mcp",
+    "transport": "streamable-http"
+  },
+  "categories": ["finance", "data", "research"],
+  "tags": ["exchange-rates", "emerging-markets", "fx", "street-rate", "parallel-market", "usdt"]
+}
