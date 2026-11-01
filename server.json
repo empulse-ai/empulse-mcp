@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.empulse-ai/empulse-street-fx",
-  "description": "Street exchange rates of emerging-market currencies against the US dollar from the EMpulse Street FX Index: latest rate, history, premium over the official rate, stress signals, events. Free level without a key.",
+  "description": "Street FX rates of emerging-market currencies vs USD: latest, history, premium, stress, events",
   "title": "EMpulse Street FX Index",
   "repository": {
     "url": "https://github.com/empulse-ai/empulse-mcp",
@@ -17,24 +17,6 @@
         {
           "name": "X-API-Key",
           "description": "Your EMpulse API key (optional: without it the free level applies — free currencies, data up to yesterday, a daily limit per network). A free key: request_free_key(email) or https://empulse.ai/#key",
-          "isRequired": false,
-          "isSecret": true
-        }
-      ]
-    }
-  ],
-  "packages": [
-    {
-      "registryType": "pypi",
-      "identifier": "empulse-mcp",
-      "version": "1.0.0",
-      "transport": {
-        "type": "stdio"
-      },
-      "environmentVariables": [
-        {
-          "name": "EMPULSE_API_KEY",
-          "description": "Your EMpulse API key (optional, see above)",
           "isRequired": false,
           "isSecret": true
         }
