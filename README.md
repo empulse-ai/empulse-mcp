@@ -35,9 +35,11 @@ Street exchange rates of emerging-market currencies against the US dollar — th
 official rate is managed, lagging or unavailable — built from transaction-based market data and quotes from
 independent public market sources, with a confidence class and the number of sources on every figure.
 
-Tools: `get_street_rate`, `get_rate_history`, `list_currencies`, `get_official_vs_street`, `get_stress_signals`,
+Tools: `get_street_rate`, `get_rate_history`, `list_currencies`, `get_integration_afghanistan`,
+`get_official_vs_street`, `get_stress_signals`,
 `get_fx_events`, `get_hourly`, `get_rail_health`, `get_rail_incidents`, `get_unmet_demand`, `get_usdt_liquidity`,
-`get_news_sentiment`, `get_rate_stack`, `get_corridor`,
+`get_news_sentiment`, `get_rate_stack`, `get_corridor`, `get_integration_turkey`,
+`get_street_rates_for_people_b2c`, `get_other_american_samoa`, `get_integration_united_arab_emirates`,
 `get_methodology`, `request_free_key`. Resources: `empulse://methodology`,
 `empulse://coverage`, `empulse://pricing`. Every answer carries `source`, `as_of`, `confidence` and a ready
 `citation`. Full description: https://empulse.ai/llms.txt · API docs: https://api.empulse.ai/docs
